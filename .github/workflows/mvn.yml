@@ -20,7 +20,7 @@ jobs:
       - name: List files in directory
         run: ls -R
       - name: Build with Maven
-        run: mvn -B clean package -f mvn/pom.xml
+        run: mvn -B clean package -f bhpoo/pom.xml
 
 
 
